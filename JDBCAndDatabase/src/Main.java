@@ -18,7 +18,6 @@ public class Main {
                 System.out.println("ADI : " + data.getString("employee_name"));
                 System.out.println("POZİSYONU : " + data.getString("employee_position"));
                 System.out.println("MAAŞI : " + data.getInt("employee_salary"));
-            //    System.out.println("##############################################################");
             }
         } catch (SQLException e) {
             System.out.println(e.getMessage());
